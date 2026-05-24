@@ -1,0 +1,19 @@
+/* center project list */
+.projects-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+/* center card content */
+.project-card {
+    text-align: center;
+}
+
+/* center images inside cards */
+.project-card img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+}
