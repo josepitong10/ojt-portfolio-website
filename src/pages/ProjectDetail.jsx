@@ -59,7 +59,7 @@ export function ProjectDetail() {
             
             <div className="flex flex-wrap gap-4 mb-8">
               {project.liveUrl && (
-                <a href={project.liveUrl} target="_blank" rel="noreferrer" className="flex items-center gap-2 px-6 py-3 bg-primary-500 hover:bg-primary-600 text-white rounded-lg font-medium transition-colors">
+                <a href={project.liveUrl} target="_blank" rel="noreferrer" className="btn-primary">
                   <ExternalLink className="w-4 h-4" /> Live Demo
                 </a>
               )}
@@ -94,7 +94,7 @@ export function ProjectDetail() {
               </div>
               
               <div className="space-y-8">
-                <div className="glass p-6 rounded-xl">
+                <div className="glass-card p-6">
                   <h4 className="font-bold text-lg mb-4">Technologies</h4>
                   <div className="flex flex-wrap gap-2">
                     {project.tech.map(t => (

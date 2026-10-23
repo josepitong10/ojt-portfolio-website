@@ -1,23 +1,21 @@
+import { asset } from '../lib/asset';
+
 export const projects = [
-
-{
-  slug: "spotify-app",
-  title: "Simple LogIn and Registration System",
-  category: "Mobile",
-  description: "a simple login and registration system simple using flutter and firebase",
-  longDescription: "A simple login and registration system built with Flutter and Firebase. Features a dynamic CRUD interface and dark mode support.",
-  tech: ["flutter", "Firebase", "laravel"],
-  image: "public/register.jpg",
-  gallery: [
-    "public/register.jpg"
-  ],
-  liveUrl: "https://flutlab.io/editor/da99b3f9-76fa-486f-8f0a-fc930ac7f892",
-  repoUrl: "https://github.com",
-  featured: true,
-
-  // Center the card
-  className: "mx-auto text-center"
-},
+  {
+    slug: "spotify-app",
+    title: "Simple Login and Registration System",
+    category: "Mobile",
+    description: "A simple login and registration system built using Flutter and Firebase.",
+    longDescription: "A simple login and registration system built with Flutter and Firebase. Features a dynamic CRUD interface and dark mode support.",
+    tech: ["Flutter", "Firebase", "Laravel"],
+    image: asset("register.jpg"),
+    gallery: [
+      asset("register.jpg")
+    ],
+    liveUrl: "https://flutlab.io/editor/da99b3f9-76fa-486f-8f0a-fc930ac7f892",
+    repoUrl: "https://github.com",
+    featured: true
+  },
   // Hidden project entries
 /*
   {
@@ -27,9 +25,9 @@ export const projects = [
     description: "An academic portal for students to check grades, schedules, and announcements.",
     longDescription: "Developed as a capstone project, this portal integrates various university services into a single, user-friendly platform. Features include course registration, grade tracking, and a campus event calendar.",
     tech: ["Vue.js", "Bootstrap", "Node.js", "MongoDB"],
-    image: "public/login.jpg",
+    image: asset("login.jpg"),
     gallery: [
-      "public/login.jpg"
+      asset("login.jpg")
     ],
     liveUrl: "https://example.com",
     repoUrl: "https://github.com",

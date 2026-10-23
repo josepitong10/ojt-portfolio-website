@@ -10,20 +10,20 @@ export const experience = [
   },
   {
     id: 2,
-    role: "Web and mobile app Designer",
+    role: "Web and Mobile App Designer",
     company: "Self-Employed",
     type: "work",
     start: "Jun 2024",
     end: "Dec 2024",
-    description: "Designed and developed custom websites and mobile appsfor school project and requirements."
+    description: "Designed and developed custom websites and mobile apps for school projects and requirements."
   },
   {
     id: 3,
     role: "BS Computer Science",
-    company: "Nurth Eastern MindanaoState University",
+    company: "North Eastern Mindanao State University",
     type: "education",
     start: "Aug 2020",
-    end: "present 2026",
-    description: "3rd year student"
+    end: "Present",
+    description: "3rd year student."
   }
 ];
