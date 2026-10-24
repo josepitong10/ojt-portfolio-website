@@ -24,6 +24,6 @@ export const profile = {
     facebook: "https://facebook.com/"
   },
   resumeUrl: asset("resume.pdf"),
-  avatar: asset("myprofile.png"),
+  avatar: asset("MYprofile.png"),
   aboutImage: asset("2ndprofile.jpg")
 };
